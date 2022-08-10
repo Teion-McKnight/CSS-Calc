@@ -1,0 +1,21 @@
+/* Colorful Calcs.com's Cascading StyleSheet */
+:root {
+  
+}
+
+body {
+  width: 80%;
+}
+
+button {
+  width: 25%;
+}
+
+.calc-main {
+  border: 2px solid var(--)
+  font-size: 0px;
+}
+
+.slimthick {
+  width: 50%;
+}

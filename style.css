@@ -1,4 +1,7 @@
+
 /* Colorful-Calcs.com's Cascading StyleSheet */
+
+
 :root {
   --background-color: #8ECAE6;
   --text-color: #023047;
@@ -19,6 +22,12 @@ body {
   color: var(--text-color);
 }
 
+.calc-screen {
+  border-bottom: 2px solid #023047;
+  margin: 3px 0 3px 0;
+  padding: 0 0 3px 0;
+}
+
 button {
   background-color: var(--color-1);
   color: var(--text-color);
@@ -33,11 +42,31 @@ button {
   border: 2px solid var(--text-color);
   font-size: 0px;
   text-align: center;
-  width: 80%;
+  width: 60%;
+  padding: 0 3px 3px 3px;
+  
 }
 
 .submit-calc, .reset-calc{
   width: 50%;
   border: outset var(--color-2);
   background-color: var(--color-3);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr, 4fr;
+  margin: 1em 0 7em 0;
+}
+
+.sidebar {
+  border: solid var(--color-1);
+  background-color: aqua;
+}
+
+.main-content {
+  border: solid var(--color-1);
+  border-left: none;
+  background-image: linear-gradient(var(--color-1, --color-3));
+  margin: 15px;
 }

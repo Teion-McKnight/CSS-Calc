@@ -1,0 +1,13 @@
+.split-container {
+  display: grid;
+  grid-template: 24% / auto;
+  grid-template-columns: 24%;
+}
+
+.sidebar-2 {
+  width: 24%;
+}
+
+.main-content-2 {
+
+}
